@@ -3,6 +3,7 @@
     <div class="col-xs-12">
       <div class="jumbotron">
         <h1>Welcome <small>to the finance tracker app</small></h1>
+        <%= link_to "Logout", destroy_user_session_path, method: :delete, type: "button", class: "btn btn-danger" %> 
       </div>
     </div>
   </div>
