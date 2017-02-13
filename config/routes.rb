@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'my-portfolio', to: 'users#my_portfolio'
 
+  get 'search-stocks', to: 'stocks#search'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
