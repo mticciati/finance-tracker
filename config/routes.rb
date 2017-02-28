@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   get 'search-stocks', to: 'stocks#search'
 
+  get 'my-friends', to: 'user#my_friends'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
