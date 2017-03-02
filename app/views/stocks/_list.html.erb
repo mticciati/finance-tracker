@@ -1,11 +1,11 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <td>Name</td>
-      <td>Symbol</td>
-      <td>Current Price</td>
+      <th>Name</th>
+      <th>Symbol</th>
+      <th>Current Price</th>
       <% if @user.id == current_user.id %>
-      <td>Actions</td>
+      <th>Actions</th>
       <% end %>
     </tr>
   </thead>
@@ -27,5 +27,4 @@
     </tr>
     <% end %>
   </tbody>
-
 </table>
