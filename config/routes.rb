@@ -18,7 +18,7 @@ Rails.application.routes.draw do
 
   get 'search-friends', to: 'users#search'
 
-  get 'add-friend', to: 'users#add_friend'
+  post 'add-friend', to: 'users#add_friend'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
